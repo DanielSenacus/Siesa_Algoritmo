@@ -1,0 +1,48 @@
+@import url(https://fonts.googleapis.com/css?family=Khula:700);
+@import url('https://fonts.cdnfonts.com/css/press-start-2p');
+body {
+  background: #111;
+}
+.hidden {
+  opacity:0;
+}
+.console-container {
+
+ position: absolute;
+ font-family: 'Press Start 2P', sans-serif;
+  font-size:1.5em;
+  text-align:left;
+  height:200px;
+  width:490px;
+  display:block;
+  position:absolute;
+  color:white;
+  top: 10%;
+  left: 5%;
+  margin:auto;
+  z-index: 10;
+}
+
+.console-text-input{
+  position: absolute;
+  background-color: transparent;
+  color: white;
+  z-index: 1000;  
+  pointer-events: all;
+  border-top-style: hidden;
+  border-right-style: hidden;
+  border-left-style: hidden;
+  border-bottom-style: hidden;
+}
+
+.console-text-input:focus{
+  outline: none;
+}
+.console-underscore {
+   display:inline-block;
+  position:relative;
+  top:-0.14em;
+  left:10px;
+  z-index: 12;
+}
+
